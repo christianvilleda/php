@@ -1,5 +1,5 @@
 <?php
-ob_start(); $db = new mysqli("sql207.epizy.com","epiz_28591516","3bHalgLZNZKp"); if($db->connect_errno > 0){ die('Unable to connect to database [' . $db->connect_error . ']');  }  mysqli_select_db($db,"epiz_28591516_biitte_users"); $db->set_charset("utf8mb4"); 
+ob_start(); $db = new mysqli("sql.epizy.com","epiz_28","3b"); if($db->connect_errno > 0){ die('Unable to connect to database [' . $db->connect_error . ']');  }  mysqli_select_db($db,"epiz_28591516_biitte_users"); $db->set_charset("utf8mb4"); 
 ?>
 
 <?php
